@@ -9,12 +9,14 @@ description = "A simple word unscrambler using permutations"
 readme = "README.md"
 requires-python = ">=3.7"
 authors = [{ name = "Faisal", email = "faisal@nihongoproject.com" }]
-dependencies = [
-    "pandas>=2.3.0"
-]
-license = { text = "Unlicense" }
+keywords = ["word unscrambler", "permutations", "word games"]
+dependencies = ["pandas>=2.3.0"]
+
+[tool.setuptools]
+license-files = ["LICENSE.txt"]
+
 classifiers = [
-    "License :: OSI Approved :: The Unlicense",
+    "License :: OSI Approved :: The Unlicense (Unlicense)",
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent"
 ]
