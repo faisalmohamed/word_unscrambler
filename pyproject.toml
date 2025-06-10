@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "word_unscrambler"
+version = "1.0.0"
+description = "A simple word unscrambler using permutations"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [{ name = "Faisal", email = "faisal@nihongoproject.com" }]
+dependencies = [
+    "pandas>=2.3.0"
+]
+license = { text = "Unlicense" }
+classifiers = [
+    "License :: OSI Approved :: The Unlicense",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+[project.scripts]
+unscrambler = "word_unscrambler.cli:main"
