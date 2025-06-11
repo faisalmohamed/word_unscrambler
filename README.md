@@ -1,6 +1,4 @@
-**Overview**
-
-**Word Unscrambler** is a Python script that finds valid words from scrambled letters using permutations. It relies on **pandas** for word list management and **itertools** for generating word permutations.
+**Unscrambler Words** is a Python script that finds valid words from scrambled letters using permutations. It relies on **pandas** for word list management and **itertools** for generating word permutations.
 
 **Installation**
 
